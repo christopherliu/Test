@@ -1,4 +1,4 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.constant = void 0;
-exports.constant = 5;
+exports.number = void 0;
+exports.number = 5;

@@ -7,6 +7,7 @@ You can find all the config options in our docs here: https://keystonejs.com/doc
 */
 
 import { config } from '@keystone-6/core';
+import { number } from "testlib";
 import { componentBlocks } from "testlib/components/component-blocks";
 
 // Look in the schema file for how we define our lists, and how users interact with them through graphql or the Admin UI
@@ -33,4 +34,5 @@ export default withAuth(
   })
 );
 
+console.log(number);
 console.log(componentBlocks);
